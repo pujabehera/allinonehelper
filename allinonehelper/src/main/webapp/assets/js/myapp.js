@@ -9,8 +9,12 @@ $(function() {
 	case 'Contact Us':
 		$('#contact').addClass('active');
 		break;
+	case 'All Services':
+		$('#listServices').addClass('active');
+		break;
 	default:
-		$('#home').addClass('active');
+		$('#listServices').addClass('active');
+		$('#a_'+menu).addClass('active');
 		break;
 	}
 });

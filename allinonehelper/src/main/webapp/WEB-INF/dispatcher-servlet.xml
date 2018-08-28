@@ -12,6 +12,8 @@
    ">
 
 	<context:component-scan base-package="com.aoh.allinonehelper.controller" />
+	<context:component-scan base-package="com.aoh.allinonehelperbackend.daoImpl" />
+	
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

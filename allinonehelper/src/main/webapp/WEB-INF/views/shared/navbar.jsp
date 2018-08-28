@@ -11,7 +11,7 @@
 					<li id="home" class="nav-item"><a class="nav-link" href="${contextRoot}/home">Home
 					</a></li>
 					<li id="about" class="nav-item"><a class="nav-link" href="${contextRoot}/about">About</a></li>
-					<li id="listServices" class="nav-item"><a class="nav-link" href="${contextRoot}/listServices">Services</a>
+					<li id="listServices" class="nav-item"><a class="nav-link" href="${contextRoot}/show/all/services">Services</a>
 					</li>
 					<li id="contact" class="nav-item"><a class="nav-link" href="${contextRoot}/contact">Contact</a>
 					</li>
